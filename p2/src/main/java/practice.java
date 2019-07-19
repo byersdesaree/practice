@@ -3,23 +3,15 @@ public class practice {
         System.out.println("Hello World");
     }
 
-    public int add(int a, int b){
-        int sum = int a+int b;
-        return sum;
+
+    public void concatenates(String word){
+        System.out.println("Hello World"+ "Goodnight moon");
+    }
+    public void concatenates(String word, String word2) {
+        String word = "Hello everyone";
+        String word2 = "How are you";
+        System.out.println(word + word2);
     }
 
-    public int subtract(int a, int b){
-        int difference= int a-int b;
-        return difference;
-    }
-
-    public double multiply(int a, int b, int c){
-        int product= int a*int b*int c;
-        return product;
-    }
-
-    public int divide(int a, int b){
-        int quotient = int a/int b;
-        return quotient;
-    }
 }
+
